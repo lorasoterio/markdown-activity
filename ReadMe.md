@@ -26,7 +26,7 @@ The integration of the chatbot also allows for automated customer support, minim
 
 <br>
 
-## 🖼️**Screenshot**
+## 🖼️**Screenshot / System Preview**
 ![App Screenshot](images/screenshot.png) 
 ![App Screenshot](images/screenshot2.png)
 
