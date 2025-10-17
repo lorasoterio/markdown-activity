@@ -1,10 +1,12 @@
+
+
 #  **Bus Seat Reservation System with AI Chatbot**
 
 
 <br>
 <br>
 
-## **Project Description**
+## 📘**Project Description**
 
 
 The Bus Seat Reservation System with AI Chatbot is a web-based platform designed to streamline the process of booking bus seats through intelligent automation. The system integrates a helpdesk chatbot that assists users in navigating the reservation process, providing information about bus schedules, seat availability, and fare details in real time.
@@ -13,7 +15,7 @@ The integration of the chatbot also allows for automated customer support, minim
 
 <br>
 
-## **Features**
+## 🎨**Features**
 
 - **AI Chatbot Assistant** – Helps users inquire and book bus seats through conversation.  
 - **Seat Visualization System** – Displays seat availability using color indicators (e.g., green = available, red = reserved).  
@@ -24,13 +26,14 @@ The integration of the chatbot also allows for automated customer support, minim
 
 <br>
 
+## 🖼️**Screenshot**
 ![App Screenshot](images/screenshot.png) 
 ![App Screenshot](images/screenshot2.png)
 
 
 <br>
 
-## **Installation Steps**
+## ⚙️**Installation Steps**
 
 ```bash
 # 1. Clone the repository
@@ -67,7 +70,7 @@ python manage.py runserver
 
 <br>
 
-## **Technologies Used**
+## 🧩**Technologies Used**
 | Layer              | Tools / Frameworks                          |
 | :----------------- | :------------------------------------------ |
 | **Frontend**       | HTML, CSS, JavaScript, React.js             |
@@ -77,10 +80,11 @@ python manage.py runserver
 
 <br>
 
-## **Contributors**
+## 👩‍💻**Contributors**
 - Lora Soterio
 - Mikyla Dasco
 - Jecel Baitan
 - Vea Santillan
 - Mark Lawrence Pedir
 - Vougn Jeric Jardinero
+
