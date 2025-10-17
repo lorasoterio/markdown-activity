@@ -1,20 +1,13 @@
-#  **Comparative Study on Bus Seat Reservation System with AI Chatbot vs Manual Booking**
+#  **Bus Seat Reservation System with AI Chatbot**
 
 ---
 
 ## **Project Description**
 
-This project presents a **comparative analysis** between two booking approaches:
-1. An **AI Chatbot-integrated Bus Seat Reservation System**.
-2. The traditional **Manual Booking Process**.
 
-The purpose of this study is to evaluate the **efficiency, user experience, and accuracy** between both systems.  
-By leveraging conversational AI, the chatbot aims to assist users in:
-- Reserving bus seats through guided conversation.
-- Inquiring about bus schedules, fares, and seat availability.
-- Reducing human error and processing time compared to manual transactions.
+The Bus Seat Reservation System with AI Chatbot is a web-based platform designed to streamline the process of booking bus seats through intelligent automation. The system integrates a helpdesk chatbot that assists users in navigating the reservation process, providing information about bus schedules, seat availability, and fare details in real time.
 
-The study ultimately seeks to identify whether integrating an **AI-driven helpdesk assistant** can streamline transportation services and enhance user satisfaction.
+The integration of the chatbot also allows for automated customer support, minimizing human workload and providing instant responses to inquiries. Overall, this system seeks to demonstrate how AI-driven assistance can improve transportation management, customer satisfaction, and booking accuracy within public transit services.
 
 ---
 
@@ -27,14 +20,21 @@ The study ultimately seeks to identify whether integrating an **AI-driven helpde
 - **Admin Dashboard** – Enables admins to manage buses, schedules, and booking records.  
 - **Comparative Evaluation Module** – Collects and compares user data between chatbot-assisted and manual booking.
 
+---
+
+![App Screenshot](images/screenshot.png) 
+![App Screenshot](images/screenshot2.png)
+
+---
+
 ## **Installation Steps**
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/bus-seat-reservation-chatbot.git
+git clone https://github.com/lorasoterio/bus-seat-reservation-chatbot.git
 
 # 2. Navigate to the project directory
-cd bus-seat-reservation
+cd bus-seat-reservation-chatbot
 
 # 3. Install Pipenv if you haven’t yet
 pip install pipenv
@@ -51,7 +51,6 @@ DB_USER=postgres
 DB_PASSWORD=password
 DB_HOST=localhost
 DB_PORT=port
-OPENAI_API_KEY=openai_api_key
 DIALOGFLOW_PROJECT_ID=project_id
 
 # 7.Run database migrations
@@ -63,26 +62,24 @@ python manage.py runserver
 
 ```
 
-![App Screenshot](images/screenshot.png) 
-![App Screenshot](images/screenshot2.png)
 
 
 ---
 
-## Technologies Used
+# **Technologies Used**
 | Layer              | Tools / Frameworks                          |
 | :----------------- | :------------------------------------------ |
 | **Frontend**       | HTML, CSS, JavaScript, React.js             |
 | **Backend**        | Python (Django)                             |
 | **Database**       | PostgreSQL                                  |
-| **AI Integration** | Dialogflow, OpenAI API, or Custom NLP Model |
+| **AI Integration** | Dialogflow |
 
 ---
 
-# Contributors
+# **Contributors**
 - Lora Soterio
 - Mikyla Dasco
 - Jecel Baitan
 - Vea Santillan
-- Mark Lawrence Pider
+- Mark Lawrence Pedir
 - Vougn Jeric Jardinero
